@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT sans';
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 1017px;
+    margin: 0 auto;
+
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    margin-top: 18px;
+    margin-bottom: 21px;
+}
+
+.nav__flex-container {
+    display: flex;
+    width: 317px;
+    justify-content: space-between;
+}
+
+.nav__flex-container--second {
+    width: 320px;
+    justify-content: start;
+}
+
+.nav__flex-container--second .nav__list-item:first-child {
+    margin-right: 110px;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.nav__link:hover {
+    color: #81b3d2;
+}
+
+.nav__link:active {
+    color: #cacaca;
+}
+
+.nav__list-item--logo {
+    background: url('../assets/index-sedono/logotype-desktopp.svg') no-repeat;
+    width: 488px;
+    height: 490px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 445px;
+
+    z-index: 2;
+}
+
+.header__background-image {
+    height: 518px;
+    background: url('../assets/index-sedono/back-desktop.jpg') no-repeat;
+    width: inherit;
+    position: relative;
+}
+
+.header__background-decoration {
+    background: url('../assets/index-sedono/intro-triangle.svg') no-repeat;
+    width: inherit;
+    height: 57px;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.main {
+    padding-top: 48px;
+}
+
+.main__title {
+    text-align: center;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    text-transform: uppercase;
+    max-width: 440px;
+    margin: 0 auto 29px;
+}
+
+.main__description {
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.main__section-one {
+    text-transform: uppercase;
+    padding-top: 50px;
+    margin-bottom: 24px;
+}
+
+.section-one__grid-container {
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-rows: 256px auto;
+    row-gap: 56px;
+}
+
+.section-block {
+    background-color: #81b3d2;
+    text-align: center;
+    color: white;
+
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.section-block__title {
+    max-width: 126px;
+    margin: 0 auto;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+
+    padding-top: 51px;
+    margin-bottom: 11px;
+}
+
+.section-block__number {
+    margin-bottom: 20px;
+}
+
+.section-block__description {
+    max-width: 272px;
+    margin: 0 auto;
+}
+
+.section-one__features-list {
+    display: flex;
+    justify-content: space-around;
+    grid-column: 1 / 3;
+    list-style: none;
+    text-align: center;
+
+    margin-bottom: 60px;
+}
+
+.features-list__list-item {
+    grid-column: 1 / 4;
+}
+
+.features-list__feature-image {
+    background: url('../assets/index-sedono/icon-burger.svg') no-repeat;
+    width: 92px;
+    height: 78px;
+
+    margin: 0 auto 23px;
+}
+
+.features-list__feature-image--home {
+    background-position: 8px;
+}
+
+.features-list__feature-image--burger {
+    background-position: -390px;
+}
+
+.features-list__feature-image--present {
+    background-position: -790px;
+}
+
+.features-list__feature-title {
+    font-weight: bold;
+    line-height: 26px;
+    font-size: 21px;
+
+    margin-bottom: 21px;
+}
+
+.features-list__features-description {
+    font-size: 14px;
+    line-height: 21px;
+    max-width: 286px;
+    margin: 0 auto;
+}
+
+.main__section-two {
+    text-transform: uppercase;
+
+    margin-bottom: 54px;
+}
+
+.section-two__grid-container {
+    display: grid;
+    grid-template-columns: auto 400px;
+    grid-template-rows: 256px 256px;
+}
+
+.section-block__title--section-two {
+    max-width: 156px;
+}
+
+.section-block__description--section-two {
+    max-width: 220px;
+    text-align: center;
+}
+
+.section-block__image-block--section-two {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.section-block--section-two {
+    grid-column: 2;
+}
+
+.section-two__features-list {
+    display: flex;
+    grid-row: 2;
+    grid-column: 1 / 3;
+    list-style: none;
+}
+
+.section-block--feature-item {
+    width: 400px;
+    background-color: #eeeeee;
+    color: black;
+}
+
+.section-block__title--feature-title {
+    padding-top: 44px;
+}
+
+.section-block__description--feature {
+    padding-bottom: 66px;
+}
+
+.main__section-three {
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-bottom: 32px;
+}
+
+.section-three__title {
+    font-size: 30px;
+    line-height: 26px;
+    font-weight: bold;
+
+    margin-bottom: 32px;
+}
+
+.section-three__description {
+    font-size: 14px;
+    line-height: 24px;
+    max-width: 440px;
+    margin: 0 auto 47px;
+}
+
+.section-three__button {
+    border: none;
+    width: 458px;
+    height: 58px;
+    background-color: #81b3d2;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 66px;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+
+.section-three__button:hover {
+    background-color: #669ec0;
+    cursor: pointer;
+}
+
+.section-three__button:active {
+    background-color: #5496bd;
+    color: #94b9d2;
+}
+
+.footer {
+    text-transform: uppercase;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.footer__hashtag {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;;
+}
+
+.footer__contact-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 151px;
+}
+
+.contact-list__item {
+    width: 46px;
+    height: 48px;
+    background: #81b3d2;
+}
