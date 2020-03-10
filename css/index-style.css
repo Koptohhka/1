@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #f2f2f2;
+    background-color: black; /*#f2f2f2*/
 }
 
 .shadow-box-wrapper {
@@ -341,4 +341,64 @@ body {
     width: 46px;
     height: 48px;
     background: #81b3d2;
+}
+
+
+/*АДАПТИВ МОБАЙЛ ВЕРШН*/
+
+@media (max-width: 578px) {
+    *{
+        width: 100%;
+    }
+    /*Временно*/
+    .shadow-box-wrapper {
+        width: auto;
+        box-shadow: none;
+    }
+
+    .wrapper {
+        width: auto;  
+    }
+
+    .nav__list-item {
+        display: none;  /*!!!!!!*/
+    }
+
+    .nav__list-item--logo {
+        height: 357px;
+        width: 280px;
+        background-size: contain;
+    }
+
+    .header__background-image {
+        background-size: 80%;
+    }
+
+    .section-one__grid-container {
+        display: block;
+    }
+
+    .section-two__grid-container {
+        display: block;
+    }
+
+    .section-two__features-list {
+        display: block;
+    }
+
+    .footer__container {
+        display: block;
+    }
+
+
+
+
+
+
+
+
+
+    img {
+        width: 300px;
+    }
 }
