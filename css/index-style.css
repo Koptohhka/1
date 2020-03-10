@@ -5,6 +5,20 @@
     font-family: 'PT sans';
 }
 
+body {
+    background-color: #f2f2f2;
+}
+
+.shadow-box-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+
+    box-shadow: 0 15px 35px 15px rgba(0, 0, 0, .2),
+    0 -15px 35px 15px rgba(0, 0, 0, .2);
+    
+}
+
 .wrapper {
     width: 1200px;
     margin: 0 auto;
@@ -21,7 +35,7 @@
     text-transform: uppercase;
     font-weight: bold;
 
-    margin-top: 18px;
+    padding-top: 18px;
     margin-bottom: 21px;
 }
 
@@ -60,7 +74,7 @@
 
 .nav__list-item--logo {
     background: url('../assets/index-sedono/logotype-desktopp.svg') no-repeat;
-    width: 488px;
+    width: 463px;
     height: 490px;
     margin: 0;
     position: absolute;
