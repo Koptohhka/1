@@ -248,7 +248,7 @@
         background: url('../assets/index-sedono/logotype-desktopp.svg') no-repeat;
         background-size: contain;
         width: 290px;
-        height: 380px;
+        height: 300px;
 
         z-index: -1;
     }
@@ -319,9 +319,8 @@
 
     .section-block__image {
         display: block;
-        width: auto;
+        width: 100%;
         background-position: -100px;
-        height: 260px;
 
         margin-bottom: 25px;
     }
